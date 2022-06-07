@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Cantidad de opciones</h4>
+    <div>
+        <label for="lista_num_ini">N° de opción incial:</label>
+        <input id="num_inicial" type="text" placeholder="ingrese un número inicial">
+        <label for="lista_num_fin">N° de opción final:</label>
+        <input id="num_final" type="text" placeholder="ingrese un número final">
+        <button onclick="mostrar()">Generar</button>
+    </div>
+    <div>
+        
+        <label for="lista_generada">Opciones generadas</label>
+        <select onchange="verificarOpciones()" name="opciones" id="lista_opciones">
+            
+        </select>
+
+   
+    </div>
+
+    <script src="ejercicio2FOR.js"></script>
+
+</body>
+</html>

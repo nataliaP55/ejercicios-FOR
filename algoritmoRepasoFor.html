@@ -1,0 +1,47 @@
+<!--
+construir una página que permita recibir el nombre, año de nacimiento entre 1922 y 2004
+una vez el usuario ingrese la información y la envíe debería mostrarse un mensaje
+informando el nombre y la edad aproximada del usuario
+
+HTML:
+-recibir un nombre
+-recibir año de nacimiento
+- botón enviar
+-mostrar mensaje sobre nombre y edad del usuario
+
+JS
+- calcular edad aproximada con el año de nacimiento ingresado
+- hacer automática la lista de años (estructura de iteración)
+- hacer que el botón muestre la información
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Repaso For 1</h1>
+<fieldset>
+    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+    <label for="lista_anios"> Seleccione año de nacimiento: </label>
+    <select name="nombre_lista_anios" id="lista_anios">
+        <option value="opc_def">Seleccione año...</option>
+    </select>
+</fieldset>
+
+<button onclick="calcularEdad()">Enviar</button>
+
+<div id="respuesta">
+
+
+</div>
+
+<script src="algoritmoRepasoFor.js"></script>
+</body>
+</html>
